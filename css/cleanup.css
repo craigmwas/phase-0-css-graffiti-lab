@@ -1,1 +1,21 @@
 /* write your override styles here */
+ 
+#wall > .tag-1,
+#wall > #tag-2,
+#wall > #tag-3,
+#wall > .parent > #tag-4,
+#wall > .parent > .slick#tag-5,
+#wall > .parent > div > #tag-6,
+#wall > .parent > #tag-7.slick {
+  display: none;
+}
+/* Override selectors with more specificity to hide graffiti tags */
+#wall > .tag-1,
+#wall > #tag-2,
+#wall > #tag-3,
+#wall > .parent > #tag-4,
+#wall > .parent > .slick#tag-5,
+#wall > .parent > div > #tag-6,
+#wall > .parent > #tag-7.slick {
+  display: none;
+}
